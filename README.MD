@@ -2,9 +2,10 @@
 
 The aim of the challenge was to classify the given audio files into positive, neutral or negative sentiment.
 
-## DATASET LINK : https://drive.google.com/file/d/1_6T6xWZLY35rJbp7XUTltaHrb0-yZELd/view?usp=sharing
-## VIDEO LINK : https://screenrec.com/share/WhJvscxQoT
 ## LB RANK : 2
+
+### DATASET LINK : https://drive.google.com/file/d/1_6T6xWZLY35rJbp7XUTltaHrb0-yZELd/view?usp=sharing
+### VIDEO LINK : https://screenrec.com/share/WhJvscxQoT
 
 # APPROACH 1:
 
@@ -19,8 +20,8 @@ Our next approach had us converting the given audio files into numerical values 
 - On the new dataset that consisted of the numerical values we did some genreal feature engineering like **mean**, **std**, **skew**, **diff**,**min** and **max**.
 - We tried out various AutoML libraries to get a rough idea of which models seem to be working good on the generated dataset and the scores for the following are :
 
-- MLJAR-SUPERVISED - 98.18182
-- PyCaret - 96.36364
+- - MLJAR-SUPERVISED - 98.18182
+- - PyCaret - 96.36364
 
 - LightGBM performed the best on the new dataset as observed in the results of the AutoML libraries.
 
