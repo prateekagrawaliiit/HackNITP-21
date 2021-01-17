@@ -1,8 +1,9 @@
-# HackNITP Winter '21 AI Challenge (https://dockship.io/challenges/5fe5d4ad78da6d7f387580b8/hacknitp-winter-'21-ai-challenge/overview)
+# HackNITP Winter '21 AI Challenge 
+https://dockship.io/challenges/5fe5d4ad78da6d7f387580b8/hacknitp-winter-'21-ai-challenge/overview)
 
-The aim of the challenge was to classify the given audio files into positive, neutral or negative sentiment.
-
+## The aim of the challenge was to classify the given audio files into positive, neutral or negative sentiment
 ## LB RANK : 2
+
 
 ### DATASET LINK : https://drive.google.com/file/d/1_6T6xWZLY35rJbp7XUTltaHrb0-yZELd/view?usp=sharing
 ### VIDEO LINK : https://screenrec.com/share/WhJvscxQoT
@@ -28,3 +29,14 @@ Our next approach had us converting the given audio files into numerical values 
 - For the penultimate submission we used ```OPTUNA```, which is one of the widely used libraries for hyper-parameter tuning and were able to get a score of **99.09091**.
 
 - For the final submission we used the **filename** as well in the features. The filename column had some data leakage which was possibly due to the filenames not being encrypted. We used the filename column along with the generated dataset on the LightGBM Classifier along with Optuna to tune it and were able to achieve a score of **100**.
+
+
+## Technologies Used :
+
+- ```librosa```
+- ```pycaret```
+- ```mljar-supervised```
+- ```lightgbm```
+- ```optuna```
+- ```wave```
+- ```auto-sklearn```
