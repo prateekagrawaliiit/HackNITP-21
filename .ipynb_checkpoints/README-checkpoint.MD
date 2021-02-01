@@ -6,6 +6,7 @@ https://dockship.io/challenges/5fe5d4ad78da6d7f387580b8/hacknitp-winter-'21-ai-c
 
 
 ### DATASET LINK : https://drive.google.com/file/d/1_6T6xWZLY35rJbp7XUTltaHrb0-yZELd/view?usp=sharing
+### VIDEO LINK : https://screenrec.com/share/WhJvscxQoT
 
 # APPROACH 1:
 
